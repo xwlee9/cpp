@@ -60,5 +60,6 @@ int main()
         if (search(hash_table, i, TABLE_LEN)) cout << i << "  is in the table!!!" << endl;
         else cout << i << "  is not in the table!!!" <<endl;
     }
+    for (int i = 0; i < 8; ++i)  delete hash_node_vec[i];
     return 0;
 }
